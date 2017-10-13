@@ -1,0 +1,18 @@
+# Editor configuration, see http://editorconfig.org
+# Original settings complied by @ciel https://www.github.com/ciel
+# Modified for use with yarn by @LilyBell https://www.github.com/LilyBell
+[*]
+charset=utf-8
+end_of_line=crlf
+insert_final_newline=true
+indent_style=space
+indent_size=4
+trim_trailing_whitespace = true
+curly_bracket_next_line=false
+
+[*.md]
+max_line_length = off
+trim_trailing_whitespace = false
+
+[*.cs]
+curly_bracket_next_line=false

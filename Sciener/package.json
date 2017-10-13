@@ -1,0 +1,26 @@
+{
+  "name": "@LilyBell/angular_dotnet_startup",
+  "version": "1.0.0",
+  "description": "Configuration templates and settings for LilyBell projects with .NET Core",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LilyBell/angular_dotnet_startup.git"
+  },
+  "author": "LilyBell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LilyBell/angular_dotnet_startup/issues"
+  },
+  "homepage": "https://github.com/LilyBell/angular_dotnet_startup#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.7.2",
+    "sass-lint": "^1.11.1",
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.3"
+  }
+}
