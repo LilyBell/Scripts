@@ -75,4 +75,12 @@ function OptionalBarebones () {
 
 OptionalBarebones
 
+Write-Host "Creating New Project: '$ProjectName' Progress:[############--------------------------------------] 25%"
+Write-Host "Moving Angular compatible views and controllers"
+Mv ./templates/Views ./src/client
+Mv ./templates/Controllers ./src/client
+Set-Location -Path ./src/client
+
+
+
 
